@@ -8,7 +8,7 @@ Ensure you have the following installed:
 - [Node.js](https://nodejs.org/) (v12+)
 - [NPM](https://www.npmjs.com/)
 - [Hardhat](https://hardhat.org/)
-- An account on the Hemi network with some test Hemi for gas fees.
+- ETH Hemi Sepolia for gas fee.
 - IPFS for hosting your images.
 
 ## Step 1: Setup Hardhat Project
