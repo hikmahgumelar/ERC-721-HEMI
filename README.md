@@ -141,7 +141,7 @@ The contract address will be logged in the terminal after successful deployment.
       const nftAddress = "your_contract_address";  // Replace with your deployed contract address
       const [deployer] = await ethers.getSigners();
 
-      const NFT = await ethers.getContractAt("MyNFT", nftAddress);
+      const NFT = await ethers.getContractAt("NFT_HKG", nftAddress);
 
       const tokenURI = "ipfs://your-ipfs-hash";  // Replace with your IPFS image URL
       const tx = await NFT.mintNFT(deployer.address, tokenURI);
