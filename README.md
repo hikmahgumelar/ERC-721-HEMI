@@ -59,12 +59,12 @@ Ensure you have the following installed:
     import "@openzeppelin/contracts/token/ERC721/ERC721.sol";
     import "@openzeppelin/contracts/access/Ownable.sol";
 
-    contract MyNFT is ERC721, Ownable {
+    contract NFT_HKG is ERC721, Ownable {
         uint256 public tokenCounter;
 
         mapping(uint256 => string) private _tokenURIs;
 
-        constructor() ERC721("MyNFT", "NFT") {
+        constructor() ERC721("NF_HKGT", "HKG") {
             tokenCounter = 0;
         }
 
@@ -112,7 +112,7 @@ Ensure you have the following installed:
       const [deployer] = await ethers.getSigners();
       console.log("Deploying contracts with the account:", deployer.address);
 
-      const NFT = await ethers.getContractFactory("MyNFT");
+      const NFT = await ethers.getContractFactory("NFT_HKG");
       const nft = await NFT.deploy();
 
       console.log("NFT deployed to:", nft.address);
