@@ -18,6 +18,8 @@ Ensure you have the following installed:
     mkdir nft-erc721
     cd nft-erc721
     npm init -y
+    mkdir contracts
+    mkdir scripts
     ```
 
 2. **Install Hardhat**:
