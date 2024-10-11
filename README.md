@@ -43,7 +43,8 @@ Ensure you have the following installed:
 1. **Create a `.env` file** to store your private key and RPC URL:
     ```env
     PRIVATE_KEY=your_private_key
-    RPC_URL=https://hemi.network/rpc
+    RPC_URL=https://testnet.rpc.hemi.network/rpc
+
     ```
 
 2. **Create the ERC-721 Smart Contract**:
@@ -165,4 +166,9 @@ Once the transaction is confirmed, the NFT will be minted with the provided IPFS
 ## Conclusion
 
 You have successfully deployed and minted an ERC-721 NFT with metadata stored on IPFS using Hardhat on the Hemi network. If you have any issues or questions, feel free to reach out!
+
+
+## Result on HEMI TESNET
+
+![screenshot](result.png)
 
