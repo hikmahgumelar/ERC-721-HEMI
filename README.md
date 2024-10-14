@@ -51,7 +51,7 @@ Ensure you have the following installed:
 
 2. **Create the ERC-721 Smart Contract**:
 
-    Inside the `contracts/` folder, create a file `NFT.sol`:
+    Inside the `contracts/` folder, create a file `NFT_HKG.sol`:
     ```solidity
     // SPDX-License-Identifier: MIT
     pragma solidity ^0.8.0;
@@ -64,7 +64,7 @@ Ensure you have the following installed:
 
         mapping(uint256 => string) private _tokenURIs;
 
-        constructor() ERC721("NF_HKGT", "HKG") {
+        constructor() ERC721("NF_HKG", "HKG") {
             tokenCounter = 0;
         }
 
