@@ -64,7 +64,7 @@ Ensure you have the following installed:
 
         mapping(uint256 => string) private _tokenURIs;
 
-        constructor() ERC721("NF_HKG", "HKG") {
+        constructor() ERC721("NFT_HKG", "HKG") {
             tokenCounter = 0;
         }
 
